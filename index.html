@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KE24JDXEGE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KE24JDXEGE');
+</script>
+<link rel="icon" href="img/ANILLO.svg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIS XV AÑOS</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!--estilo de contador-->
+    <style>
+
+td {border-style: solid;
+    border-color: #ffffff;
+ border-width: 0px;
+color: #ffffff;
+padding: 0px;
+font-size: 30px;
+font-family: 'Raleway', sans-serif;
+ text-align: center;}
+
+th {
+ border-width: 0px;
+color: #ffffff;
+ text-align: center;
+padding: 0px;
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
+}
+ 
+</style>
+
+</head>
+
+<body id="page-top" .onclick="PlayAudio()" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Modal==========================================-->
+<div class="modal" tabindex="-1" role="dialog" id="ventana-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Invitación con música</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <center> <img src="https://img.freepik.com/vector-premium/icono-auriculares-sobre-fondo-blanco_647203-411.jpg"/ style="height:80px";></center><br>
+       <center> <p>¡Mejora la experiencia activando el audio!</p></center>
+      </div>
+      <div class="modal-footer">
+      
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">No gracias</button>
+        <button class="reproductor"  data-dismiss="modal" style="  background-color: #c594aa;
+        color: #fff; height: 40px; width: 25%; margin-left: 10px; border-color: #c594aa; border-radius: 5px;" >Si, continuar</button>
+<audio src="" loop></audio>
+<script>
+    let boton = document.querySelector(".reproductor")
+    let audioEtiqueta = document.querySelector("audio")
+
+    boton.addEventListener("click", () => {
+      audioEtiqueta.setAttribute("src", "AUDIO/SO THIS LOVE.mp3")
+      audioEtiqueta.play()
+      console.log(`Reproduciendo: ${audioEtiqueta.src}`)
+    })
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div id="contenedor_carga">
+    <div id="carga"></div>
+  </div>
+
+
+
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top" style="color: #f0e0d3;">Mis XV años</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about" class="page-scroll">Nosotros</a></li>
+        <li><a href="#restaurant-menu" class="page-scroll">Padres</a></li>
+        <li><a href="#portfolio" class="page-scroll">Ceremonia</a></li>
+        <li><a href="#team" class="page-scroll">Padrinos</a></li>
+        <li><a href="#call-reservation" class="page-scroll">Asistencia</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <div class="loader"></div>
+</nav>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>Mis XV años, "Danna Aileen" <br>&<br> Mis 3 Añitos, Aarón</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--cargA-->
+
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 ">
+        <div class="about-img"><img src="img/about.jpg" class="img-responsive" alt=""></div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <center><div class="about-text">
+          <h2 style="margin-top: 5%; ">¡Festeja con nosotros!</h2>
+          <hr>
+          <p style="font-family: 'Lora', serif; font-size:20pt; line-height: 25pt">Te invitamos a celebrar con nosotros el inicio de una nueva etapa en nuestras vidas, llena de sueños, metas y grandes logros. <br><br>
+         
+        </div></center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Restaurant Menu Section -->
+<div id="restaurant-menu">
+  <div class="section-title text-center center">
+    <div class="overlay">
+      <h2>Con la bendición de Dios y en compañía de mis padres y padrinos</h2>
+    </div>
+  </div>
+  <div class="container">
+    <center><div class="col-md-10 col-md-offset-1" style="margin-bottom: 30px;">
+      <h2 style="font-size: 50pt;">Nuestros Papis</h2>
+      <hr>
+    </div></center>
+    <div class="row">
+
+      <center><div class="col-xs-12 col-sm-6">
+        <div class="about-img"><img src="img/madres.jpg" class="img-responsive" alt=""></div>
+      </div></center>
+
+      <div class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name"><center style="font-family: 'lato', serif; font-size:1.8em";>Jesus Tellez Perez</center></div>
+            <div class="menu-item-description" style="margin-bottom: 40px;"><center>Papi de los festejados</center> </div>
+            <div class="menu-item-name"><center style="font-family: 'lato', serif; font-size:1.8em";>Judith Villaverde Gonzalez</center></div>
+            <div class="menu-item-description"><center>Mami de los festejados</center> </div>
+          </div>
+            <center><p style="font-family: 'MonteCarlo', serif; font-size:3em">-Nos complace invitarte a ser parte de este gran día.-</p></center>
+        </div>
+      </div>
+      
+    </div>
+   
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="section-title text-center center">
+    <div class="overlay">
+      <h2 style="font-size: 50pt;">Ceremonia</h2>
+      <hr>
+    </div>
+  </div>
+  
+<div id="recepcion">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 ">
+            <div class="map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15173.461296613885!2d-98.38408399911093!3d18.054634893687762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cf2f61b369a8f5%3A0xb7e796b91ee1b693!2sCalle%20Ignacio%20Zaragoza%2C%2074796%20Zaragoza%20de%20la%20Luz%2C%20Pue.!5e0!3m2!1ses!2smx!4v1720904205681!5m2!1ses!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="rece-text" style="margin-top: 5%">
+          <h2><center>Celebración Religiosa</center></h2>
+          <center><hr></center>
+          <p><center>Sábado 10 de Agosto del 2024.<br>
+            Horario: 3:00 p.m.<br>
+            
+            Iglesia de Nuestra Señora de la Luz.<br>
+            
+            Calle Ignacio Zaragoza, C.P. 74796, Zaragoza de la Luz, Pue.</center></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="recepcion">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 ">
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15173.461296613885!2d-98.38408399911093!3d18.054634893687762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cf2f61b369a8f5%3A0xb7e796b91ee1b693!2sCalle%20Ignacio%20Zaragoza%2C%2074796%20Zaragoza%20de%20la%20Luz%2C%20Pue.!5e0!3m2!1ses!2smx!4v1720904205681!5m2!1ses!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+  </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="rece-text" style="margin-top: 5%;">
+          <h2><center>Recepción</center></h2>
+              <center><hr></center>
+          <p><center>Sábado 10 de Agosto del 2024.<br>
+
+            Los esperamos al término de la celebración religiosa.<br>
+            
+            Zaragoza de la Luz, Carretera Palomas-Tlapa No. 2 Tulcingo de Valle, Pue. </center></p>
+        </div>
+      </div>
+      <div class="recepcionimg">
+          <div class="col-xs-12 col-md-12" style="margin-top: 5%; margin-bottom: -10%;">
+            <div class="about-img"><img src="img/002.jpeg" class="img-responsive" alt=""></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Team Section -->
+<div id="team" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="col-md-10 col-md-offset-1 section-title">
+        <h2 style="font-size: 50pt;">Nuestros Padrinos</h2>
+      </div>
+      <div id="row">
+        <div class="col-md-12 team">
+          <div class="thumbnail">
+            <div class="team-img"><img src="img/team/02.jpg" alt="..."></div>
+            <div class="caption">
+              <h3 style="font-family: 'lato'">Jose Alberto Villar Rosendo<br> & <br> Nancy Marcial Cruz</h3>
+              <h5 style="font-family: 'MonteCarlo'; font-size: 20 pt;">Padrinos de XV años</h5>
+            </div>
+            <br><br>
+            <div class="caption">
+              <h3 style="font-family: 'lato'"> Erika Villaverde Gonzalez</h3>
+              <h5 style="font-family: 'MonteCarlo'; font-size: 20 pt;">Padrinos de 3 años</h5>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Call Reservation Section -->
+<div id="call-reservation" class="text-center">
+  <div class="container">
+   <h2 style="font-family: 'Lato', serif; font-size:2.8em; color: #830f4f;">Queremos compartir este momento especial contigo
+<br>¡Te esperamos!</h2>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="col-xs-12 col-md-6 ">
+      <div class="about-img"><img src="img/menu-bg.jpg" class="img-responsive" alt=""></div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="about-text">
+        <div class="about-img"><img src="img/menu-bg1.jpg" class="img-responsive" alt=""></div>
+        <center><hr></center>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="col-md-12">
+        
+     <!-- Contador regresivo -->
+     <h1 style="font-family: 'MonteCarlo', serif; font-size: 6em; color: #830f4f">Faltan</h1>
+    <section>
+   
+
+<table align="center" width="100%" ><CENTER>
+    <tr>
+      <td><span id="days"></span></td>
+      <td><span id="hours"></th>
+      <td><span id="minutes"></span></td>
+      <td><span id="seconds"></span></td>
+    </tr>
+    <tr>
+      <th>Días</th>
+      <th>Horas</th>
+      <th>Minutos</th>
+     <th>Segundos</th>
+    </tr></CENTER>
+</table>
+
+    </section> 
+    <!-- Fin contador regresivo -->
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => { 
+
+        //===
+        // VARIABLES
+        //===
+        const DATE_TARGET = new Date('08/10/2024 3:00 PM');
+        // DOM for render
+        const SPAN_DAYS = document.querySelector('span#days');
+        const SPAN_HOURS = document.querySelector('span#hours');
+        const SPAN_MINUTES = document.querySelector('span#minutes');
+        const SPAN_SECONDS = document.querySelector('span#seconds');
+        // Milliseconds for the calculations
+        const MILLISECONDS_OF_A_SECOND = 1000;
+        const MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60;
+        const MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
+        const MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
+
+        //===
+        // FUNCTIONS
+        //===
+
+        /**
+        * Method that updates the countdown and the sample
+        */
+function updateCountdown() {
+  // Calcs
+  const NOW = new Date()
+  const DURATION = DATE_TARGET - NOW;
+  let REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY);
+  let REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
+  let REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
+  let REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
+
+  // Set any negative values to 0
+  REMAINING_DAYS = REMAINING_DAYS < 0 ? 0 : REMAINING_DAYS;
+  REMAINING_HOURS = REMAINING_HOURS < 0 ? 0 : REMAINING_HOURS;
+  REMAINING_MINUTES = REMAINING_MINUTES < 0 ? 0 : REMAINING_MINUTES;
+  REMAINING_SECONDS = REMAINING_SECONDS < 0 ? 0 : REMAINING_SECONDS;
+
+  // Naileth Pinto
+
+  // Render
+  SPAN_DAYS.textContent = REMAINING_DAYS;
+  SPAN_HOURS.textContent = REMAINING_HOURS;
+  SPAN_MINUTES.textContent = REMAINING_MINUTES;
+  SPAN_SECONDS.textContent = REMAINING_SECONDS;
+}
+
+        //===
+        // INIT
+        //===
+        updateCountdown();
+        // Refresh every second
+        setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
+    });
+    </script>
+    
+      <div class="contact-item">
+
+      </div>
+    </div>
+  
+  </div>
+  <div class="container-fluid text-center copyrights">
+   
+      <p>&copy; 2024 Siwolf Desing. Todos los derechos reservados. Diseñado por <a href="https://wa.me/qr/RQVWSSUW4M4OL1" rel="nofollow"style="color= #8d0f39">Luis Angel Jimenez Huerta</a></p>
+    </div>
+  </div>
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+<script>
+  window.onload = function(){
+    var contenedor = document.getElementById('contenedor_carga');
+
+    contenedor.style.visibility = 'hidden';
+    contenedor.style.opacity = '0';
+  }
+</script>
+<section>
+
+</section>
+
+<script>
+  function PlayAudio(){
+    document.getElementById("audio1").play();
+  }
+</script>
+</body>
+
+</html>
